@@ -24,7 +24,7 @@ const Header = () => {
       <nav class="container p-4 py-6 text-white flex items-center justify-between">
         <div class="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
-            <Image src="/wdjx.png" height={50} width={50} />
+            <Image src="/wdjx.png" alt="WDJX Logo" height={50} width={50} />
           </a>
         </div>
         <div>
