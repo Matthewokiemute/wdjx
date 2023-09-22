@@ -1,0 +1,143 @@
+import React, { useState, useEffect } from "react";
+import { HiMenu } from "react-icons/hi";
+import { AiOutlineClose } from "react-icons/ai";
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import { TbArrowUpRight } from "react-icons/tb";
+import { IoIosMenu } from "react-icons/io";
+import { CiTwitter } from "react-icons/ci";
+import { SlSocialFacebook } from "react-icons/sl";
+import { PiInstagramLogoLight } from "react-icons/pi";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import Image from "next/image";
+
+const Header = () => {
+  useEffect(() => {
+    AOS.init({ duration: 200 });
+  }, []);
+
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const showMenuFunc = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
+  return (
+    <header class="sticky top-0 z-50">
+      <nav class="container p-4 py-6 text-white flex items-center justify-between">
+        <div class="font-semibold text-2xl lg:text-3xl">
+          <a href="#home">
+            <Image src="/wdjx.png" height={50} width={50} />
+          </a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex lg:text-[20px] items-center space-x-6">
+            <li className="hover:text-primary">
+              <a class="effect" href="#home">
+                Who We Be
+              </a>
+            </li>
+            <li>
+              <a href="#about">Timetable</a>
+            </li>
+            <li>
+              <a href="#service">Sponsors</a>
+            </li>
+            <li>
+              <a href="#service">Hala Us</a>
+            </li>
+            <li>
+              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+                <a href="https://wa.me/message/PHODOTZ5RGMWC1">Secure ur sit</a>
+                <TbArrowUpRight className="w-6 h-6" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        {/* <!-- MOBILE SCREEN --> */}
+        <div className="fixed top-10 right-6 z-50">
+          {!showMobileMenu ? (
+            <button
+              onClick={showMenuFunc}
+              class="lg:hidden cursor-pointer bg-white text-black rounded-md p-1"
+            >
+              <IoIosMenu className="w-6 h-6" />
+            </button>
+          ) : (
+            <button
+              onClick={showMenuFunc}
+              class="lg:hidden cursor-pointer text-white rounded-md"
+            >
+              <AiOutlineClose className="w-6 h-6" />
+            </button>
+          )}
+        </div>
+        {showMobileMenu && (
+          <div class="bg-[#141414] text-white h-[100vh] absolute inset-0">
+            <div className="h-full grid place-items-start">
+              <ul class="pt-32 text-2xl pl-10 py-10 flex flex-col gap-6">
+                <li
+                  data-aos-delay="400"
+                  data-aos="fade-up"
+                  className="hover:text-primary"
+                >
+                  <a id="hLink" href="#home">
+                    Who We Be
+                  </a>
+                </li>
+                <li
+                  data-aos-delay="600"
+                  data-aos="fade-up"
+                  className="hover:text-primary"
+                >
+                  <a id="hLink" href="#about">
+                    Timetable
+                  </a>
+                </li>
+                <li
+                  data-aos-delay="800"
+                  data-aos="fade-up"
+                  className="hover:text-primary"
+                >
+                  <a id="hLink" href="#service">
+                    Sponsors
+                  </a>
+                </li>
+                <li
+                  data-aos-delay="1000"
+                  data-aos="fade-up"
+                  className="hover:text-primary"
+                >
+                  <a id="hLink" href="#service">
+                    Hala Us
+                  </a>
+                </li>
+                <li data-aos-delay="1200" data-aos="fade-top">
+                  <button class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+                    <a href="https://wa.me/message/PHODOTZ5RGMWC1">
+                      Secure ur sit
+                    </a>
+                    <TbArrowUpRight className="w-6 h-6" />
+                  </button>
+                </li>
+              </ul>
+
+              <div className="text-xl pl-10 py-10 flex gap-10">
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                  <CiTwitter className="w-6 h-6 text-white" />
+                </div>
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                  <SlSocialFacebook className="w-6 h-6 text-white" />
+                </div>
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                  <PiInstagramLogoLight className="w-6 h-6 text-white" />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
