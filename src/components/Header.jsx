@@ -30,23 +30,23 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <ul class="hidden lg:flex lg:text-[20px] items-center space-x-6">
+          <ul class="hidden lg:flex lg:text-[18px] items-center space-x-6">
             <li className="hover:text-primary">
               <a class="effect" href="#home">
                 Who We Be
               </a>
             </li>
-            <li>
+            <li className="hover:text-primary">
               <a href="#about">Timetable</a>
             </li>
-            <li>
+            <li className="hover:text-primary">
               <a href="#service">Sponsors</a>
             </li>
-            <li>
+            <li className="hover:text-primary">
               <a href="#service">Hala Us</a>
             </li>
             <li>
-              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200">
                 <a href="https://wa.me/message/PHODOTZ5RGMWC1">Secure ur sit</a>
                 <TbArrowUpRight className="w-6 h-6" />
               </button>
