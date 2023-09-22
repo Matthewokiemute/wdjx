@@ -35,10 +35,10 @@ const Header = () => {
               </a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a href="#about">Timetable</a>
+              <a href="#timetable">Timetable</a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a href="#service">Sponsors</a>
+              <a href="#sponsors">Sponsors</a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#service">Hala Us</a>
@@ -120,13 +120,13 @@ const Header = () => {
               </ul>
 
               <div className="text-xl pl-10 py-10 flex gap-10">
-                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="600">
                   <CiTwitter className="w-6 h-6 text-white" />
                 </div>
-                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="700">
                   <SlSocialFacebook className="w-6 h-6 text-white" />
                 </div>
-                <div className="p-2 border border-gray-100 rounded-md bg-transparent">
+                <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="800">
                   <PiInstagramLogoLight className="w-6 h-6 text-white" />
                 </div>
               </div>
