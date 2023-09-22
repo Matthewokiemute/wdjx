@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // animation: {
+      //   'bounce': 'bounce 100s infinite', // You can customize the animation duration and iteration count here
+      // },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HiMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { TbArrowUpRight } from "react-icons/tb";
 import { IoIosMenu } from "react-icons/io";
 import { CiTwitter } from "react-icons/ci";
@@ -22,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header class="sticky top-0 z-50">
+    <header class="relative top-0 z-50">
       <nav class="container p-4 py-6 text-white flex items-center justify-between">
         <div class="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
