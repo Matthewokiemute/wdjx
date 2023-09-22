@@ -12,7 +12,7 @@ const WhoWeBe = () => {
       </div>
       <div className="w-full lg:w-1/2">
         <Image src="/images/shot.png" alt="Lady with WDJX Flag" width={600} height={600} className="object-cover mb-6 hidden lg:inline-block animate-b" />
-        <div className="-ml-8">
+        <div className="-ml-6">
           <p className="text-[#ddd] leading-7 mb-10 lg:mb-4 lg:w-full">
             While we are rooted in Warri&apos;s unique cultural context, WDJX brings
             a global perspective to design by cumulating and showcasing

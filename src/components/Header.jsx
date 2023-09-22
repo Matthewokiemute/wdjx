@@ -29,18 +29,18 @@ const Header = () => {
         </div>
         <div>
           <ul class="hidden lg:flex lg:text-[18px] items-center space-x-6">
-            <li className="hover:text-primary">
+            <li className="hover:text-primary duration-700 ease-in-out">
               <a class="effect" href="#home">
-                Who We Be
+                Who We Be?
               </a>
             </li>
-            <li className="hover:text-primary">
+            <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#about">Timetable</a>
             </li>
-            <li className="hover:text-primary">
+            <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#service">Sponsors</a>
             </li>
-            <li className="hover:text-primary">
+            <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#service">Hala Us</a>
             </li>
             <li>
@@ -76,16 +76,16 @@ const Header = () => {
                 <li
                   data-aos-delay="400"
                   data-aos="fade-up"
-                  className="hover:text-primary"
+                  className="hover:text-primary duration-700 ease-in-out"
                 >
                   <a id="hLink" href="#home">
-                    Who We Be
+                    Who We Be?
                   </a>
                 </li>
                 <li
                   data-aos-delay="600"
                   data-aos="fade-up"
-                  className="hover:text-primary"
+                  className="hover:text-primary duration-700 ease-in-out"
                 >
                   <a id="hLink" href="#about">
                     Timetable
@@ -94,7 +94,7 @@ const Header = () => {
                 <li
                   data-aos-delay="800"
                   data-aos="fade-up"
-                  className="hover:text-primary"
+                  className="hover:text-primary duration-700 ease-in-out"
                 >
                   <a id="hLink" href="#service">
                     Sponsors
@@ -103,7 +103,7 @@ const Header = () => {
                 <li
                   data-aos-delay="1000"
                   data-aos="fade-up"
-                  className="hover:text-primary"
+                  className="hover:text-primary duration-700 ease-in-out"
                 >
                   <a id="hLink" href="#service">
                     Hala Us
