@@ -6,7 +6,7 @@ import WhoWeBe from '../WhoWeBe'
 
 const MegaHeroSection = () => {
   return (
-   <div className="px-4 pt-4 mx-auto">
+   <div className="px-3 pt-3 mx-auto">
      <SectionLayout>
         <Header />
         <HeroSection />
