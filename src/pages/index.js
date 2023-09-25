@@ -9,7 +9,7 @@ import SponsorsSlider from "@/components/Carousel";
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function Home() {
-  const itemsDetails = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'];
+  const itemsDetails = ['/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png'];
   return (
     <div className={`${Jakarta.className}`}>
       <PageLayout title="WDJX - Warri Design Junction Experience">
