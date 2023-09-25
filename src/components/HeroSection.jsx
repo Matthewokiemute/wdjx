@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <div className="px-4 my-16 lg:my-20 lg:px-40 ">
       <h1
-        className="text-6xl md:text-7xl lg:text-8xl font-medium mb-5 lg:mb-10 text-white"
+        className="text-5xl md:text-7xl lg:text-8xl font-medium mb-5 lg:mb-10 text-white"
         data-aos="fade-up"
         data-aos-delay="400"
       >
