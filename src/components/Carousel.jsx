@@ -34,12 +34,12 @@ const Carousel = ({ items }) => {
             key={index}
             className="w-full p-4 transform transition-transform hover:scale-105 hover:shadow-md"
           >
-            <div className="bg-gray-300 h-20 w-44">{item}</div>
+            <div className="bg-gray-300 h-20 w-44 flex items-center justify-center">{item}</div>
           </div>
         ))}
       </div>
       <div
-        className="flex md:hidden transition-transform space-x-[40px] duration-300 ease-in-out transform "
+        className="flex md:hidden transition-transform space-x-[70px] duration-300 ease-in-out transform "
         style={{ transform: `translateX(${currentIndex * 33.33}%)` }}
       >
         {visibleItemsMobile.map((item, index) => (
@@ -47,7 +47,7 @@ const Carousel = ({ items }) => {
             key={index}
             className="w-1/4 p-4 transform transition-transform hover:scale-105 hover:shadow-md"
           >
-            <div className="bg-gray-300 h-20 w-44">{item}</div>
+            <div className="bg-gray-300 h-16 w-40 flex items-center justify-center">{item}</div>
           </div>
         ))}
       </div>
