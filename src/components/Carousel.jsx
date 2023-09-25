@@ -82,7 +82,7 @@ const Carousel = ({ items }) => {
           />
         </button>
       </div>
-      <div className="flex items-center justify-center mt-2 pb-10">
+      <div className="flex items-center justify-center mt-4 pb-10">
         <button class="flex items-center space-x-1 bg-primary text-black px-6 py-3 hover:opacity-80 ease-in duration-200">
           <a href="https://wa.me/message/PHODOTZ5RGMWC1">You wan be Odogu too?</a>
           <TbArrowUpRight className="w-6 h-6" />
