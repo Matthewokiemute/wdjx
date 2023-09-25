@@ -11,10 +11,10 @@ const Sponsors = () => {
         <div className="text-center">
           <p className="text-3xl md:text-5xl text-black font-semibold">
             This event for nor dey possible{" "}
-            <span className="md:hidden">without the help</span>
+            <span className="md:hidden">without the</span>
           </p>
           <p className="text-3xl md:text-5xl text-black font-semibold flex gap-2 items-center justify-center">
-            <span className="hidden md:inline-block">without the help</span> of
+          help <span className="hidden md:inline-block">without the help</span> of
             our <SlidingText />
           </p>
         </div>
