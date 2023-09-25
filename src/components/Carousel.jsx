@@ -52,13 +52,13 @@ const Carousel = ({ items }) => {
         ))}
       </div>
       <button
-        className="absolute left-20 top-1/2 transform -translate-y-1/2 bg-white border-none w-8 h-8"
+        className="absolute left-8 md:left-20 top-1/2 transform -translate-y-1/2 bg-white border-none w-8 h-8"
         onClick={prevSlide}
       >
         <Image src="/left-icon.png" width={20} height={20} alt="left icon" className="ml-1" />
       </button>
       <button
-        className="absolute right-20 top-1/2 transform -translate-y-1/2 bg-white border-none w-8 h-8"
+        className="absolute left-8 md:right-20 top-1/2 transform -translate-y-1/2 bg-white border-none w-8 h-8"
         onClick={nextSlide}
       >
         <Image src="/right-icon.png" width={20} height={20} alt="right icon" className="ml-[6px]" />
