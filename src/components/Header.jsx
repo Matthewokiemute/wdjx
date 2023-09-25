@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header class="relative top-0 z-50">
+    <header class="relative px-2 top-0 z-50">
       <nav class="container p-4 py-6 text-white flex items-center justify-between">
         <div class="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
@@ -35,13 +35,13 @@ const Header = () => {
               </a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a href="#timetable">Timetable</a>
-            </li>
-            <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#sponsors">Sponsors</a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a href="#service">Hala Us</a>
+              <a href="#timetable">Timetable</a>
+            </li>
+            <li className="hover:text-primary duration-700 ease-in-out">
+              <a href="#contact">Hala Us</a>
             </li>
             <li>
               <button class="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200">
@@ -52,7 +52,7 @@ const Header = () => {
           </ul>
         </div>
         {/* <!-- MOBILE SCREEN --> */}
-        <div className="fixed top-10 right-6 z-50">
+        <div className="fixed top-10 right-8 z-50">
           {!showMobileMenu ? (
             <button
               onClick={showMenuFunc}
@@ -70,13 +70,14 @@ const Header = () => {
           )}
         </div>
         {showMobileMenu && (
-          <div class="bg-[#141414] text-white h-[100vh] absolute inset-0">
+          <div class="bg-[#141414] text-white h-[100vh] fixed inset-0">
             <div className="h-full grid place-items-start">
-              <ul class="pt-32 text-2xl pl-10 py-10 flex flex-col gap-6">
+              <ul class="pt-28 text-2xl pl-10 pb-8 flex flex-col gap-6">
                 <li
                   data-aos-delay="400"
                   data-aos="fade-up"
                   className="hover:text-primary duration-700 ease-in-out"
+                  onClick={showMenuFunc}
                 >
                   <a id="hLink" href="#home">
                     Who We Be?
@@ -86,31 +87,34 @@ const Header = () => {
                   data-aos-delay="600"
                   data-aos="fade-up"
                   className="hover:text-primary duration-700 ease-in-out"
+                  onClick={showMenuFunc}
                 >
-                  <a id="hLink" href="#about">
-                    Timetable
+                  <a id="hLink" href="#sponsors">
+                    Sponsors
                   </a>
                 </li>
                 <li
                   data-aos-delay="800"
                   data-aos="fade-up"
                   className="hover:text-primary duration-700 ease-in-out"
+                  onClick={showMenuFunc}
                 >
-                  <a id="hLink" href="#service">
-                    Sponsors
+                  <a id="hLink" href="#timetable">
+                    Timetable
                   </a>
                 </li>
                 <li
                   data-aos-delay="1000"
                   data-aos="fade-up"
                   className="hover:text-primary duration-700 ease-in-out"
+                  onClick={showMenuFunc}
                 >
-                  <a id="hLink" href="#service">
+                  <a id="hLink" href="#contact">
                     Hala Us
                   </a>
                 </li>
                 <li data-aos-delay="1200" data-aos="fade-top">
-                  <button class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+                  <button onClick={showMenuFunc} class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
                     <a href="https://wa.me/message/PHODOTZ5RGMWC1">
                       Secure ur sit
                     </a>
@@ -119,7 +123,7 @@ const Header = () => {
                 </li>
               </ul>
 
-              <div className="text-xl pl-10 py-10 flex gap-10">
+              <div className="text-xl pl-10 py-5 flex gap-10">
                 <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="600">
                   <CiTwitter className="w-6 h-6 text-white" />
                 </div>
