@@ -39,7 +39,7 @@ const Carousel = ({ items }) => {
         ))}
       </div>
       <div
-        className="flex md:hidden transition-transform space-x-[70px] duration-300 ease-in-out transform "
+        className="flex md:hidden transition-transform space-x-[80px] duration-300 ease-in-out transform "
         style={{ transform: `translateX(${currentIndex * 33.33}%)` }}
       >
         {visibleItemsMobile.map((item, index) => (
