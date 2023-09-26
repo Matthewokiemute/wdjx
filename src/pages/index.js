@@ -10,7 +10,7 @@ import SpeakersTab from "@/components/templates/SpeakersTab";
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function Home() {
-  const itemsDetails = ['/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png'];
+  const itemsDetails = ['/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png'];
   return (
     <div className={`${Jakarta.className}`}>
       <PageLayout title="WDJX - Warri Design Junction Experience">

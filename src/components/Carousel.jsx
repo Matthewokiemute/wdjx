@@ -28,13 +28,13 @@ const Carousel = ({ items }) => {
     <div className="container mx-auto">
       <div className="relative w-full overflow-hidden">
         <div
-          className="hidden md:flex transition-transform -space-x-[100px] duration-300 ease-in-out transform "
+          className="hidden md:flex transition-transform space-x-[10px] duration-300 ease-in-out transform "
           style={{ transform: `translateX(${currentIndex * 5}%)` }}
         >
           {visibleItemsDesktop.map((item, index) => (
             <div
               key={index}
-              className="w-full p-4 transform transition-transform hover:scale-105 hover:shadow-md"
+              className="w-full p-4 transform transition-transform hover:scale-105"
             >
               <div className="bg-gray-300 h-20 w-44 flex items-center justify-center">
                 {item}
@@ -49,7 +49,7 @@ const Carousel = ({ items }) => {
           {visibleItemsMobile.map((item, index) => (
             <div
               key={index}
-              className="w-1/4 p-4 transform transition-transform hover:scale-105 hover:shadow-md"
+              className="w-1/4 p-4 transform transition-transform hover:scale-105"
             >
               <div className="bg-gray-300 h-16 w-40 flex items-center justify-center">
                 {item}

@@ -23,7 +23,7 @@ const WhoWeBe = () => {
         data-aos-delay="400"
       />
       <div
-        className="flex items-start flex-col w-full lg:w-[450px] mb-6 lg:mb-4"
+        className="flex items-start flex-col w-full lg:ml-40 lg:w-[450px] mb-6 lg:mb-4"
         data-aos="fade-up"
         data-aos-delay="400"
       >
@@ -43,7 +43,7 @@ const WhoWeBe = () => {
           data-aos="fade-up"
           data-aos-delay="400"
         />
-        <div className="">
+        <div className="lg:pr-40">
           <p
             className="text-[#fff] leading-7 mb-10 lg:mb-6 lg:w-full"
             data-aos="fade-up"
