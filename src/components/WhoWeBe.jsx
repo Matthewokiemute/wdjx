@@ -19,8 +19,6 @@ const WhoWeBe = () => {
         width={500}
         height={500}
         className="object-cover mb-6 lg:hidden"
-        data-aos="fade-up"
-        data-aos-delay="400"
       />
       <div
         className="flex items-start flex-col w-full lg:ml-40 lg:w-[450px] mb-6 lg:mb-4"
