@@ -1,11 +1,10 @@
-import Image from "next/image";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import PageLayout from "@/components/templates/PageLayout";
-import HeroSection from "@/components/HeroSection";
 import MegaHeroSection from "@/components/templates/MegaHeroSection";
 import Sponsors from "@/components/Sponsors";
 import SponsorsSlider from "@/components/Carousel";
 import SpeakersTab from "@/components/templates/SpeakersTab";
+import RegisterSection from "@/components/RegisterSection";
 
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -18,6 +17,7 @@ export default function Home() {
         <Sponsors />
         <SponsorsSlider items={itemsDetails} />
         <SpeakersTab />
+        <RegisterSection />
       </PageLayout>
     </div>
   );

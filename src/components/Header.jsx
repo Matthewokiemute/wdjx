@@ -20,15 +20,15 @@ const Header = () => {
   };
 
   return (
-    <header class="relative px-2 top-0 z-50">
-      <nav class="container p-4 py-6 text-white flex items-center justify-between">
-        <div class="font-semibold text-2xl lg:text-3xl">
+    <header className="relative px-2 top-0 z-50">
+      <nav className="container p-4 py-6 text-white flex items-center justify-between">
+        <div className="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
             <Image src="/wdjx.png" alt="WDJX Logo" height={50} width={50} />
           </a>
         </div>
         <div>
-          <ul class="hidden lg:flex lg:text-[18px] items-center space-x-6">
+          <ul className="hidden lg:flex lg:text-[18px] items-center space-x-6">
             <li className="hover:text-primary duration-700 ease-in-out">
               <a class="effect" href="#home">
                 Who We Be?
