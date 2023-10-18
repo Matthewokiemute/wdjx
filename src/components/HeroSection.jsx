@@ -9,13 +9,14 @@ const HeroSection = () => {
   }, []);
   return (
     <div className="px-4 my-16 lg:my-20 lg:px-40 ">
+      <p className="mb-3 lg:mb-10 md:text-[17px] text-[#fff] lg:w-3/4">DEC 1 - 2, 2023. Warri, Nigeria</p>
       <h1
-        className="text-5xl md:text-7xl lg:text-8xl font-medium mb-5 lg:mb-10 text-white"
+        className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-5 lg:mb-10 text-white leading-[55px]"
         data-aos="fade-up"
         data-aos-delay="400"
       >
-        The First Waffi <br className="hidden lg:inline-block" />
-        Design Conference
+       Waffi Design <br className="hidden lg:inline-block" />
+        Conference
       </h1>
       <p
         className="mb-5 lg:mb-10 md:text-[17px] text-[#fff] lg:w-3/4"

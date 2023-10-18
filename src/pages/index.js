@@ -5,6 +5,7 @@ import Sponsors from "@/components/Sponsors";
 import SponsorsSlider from "@/components/Carousel";
 import SpeakersTab from "@/components/templates/SpeakersTab";
 import RegisterSection from "@/components/RegisterSection";
+import Footer from "@/components/Footer";
 
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         <SponsorsSlider items={itemsDetails} />
         <SpeakersTab />
         <RegisterSection />
+        <Footer />
       </PageLayout>
     </div>
   );
