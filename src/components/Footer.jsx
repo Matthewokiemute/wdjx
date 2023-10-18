@@ -59,7 +59,7 @@ const Footer = () => {
             <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">WDJX merch</a>
             </div>
           </div>
-          <div className="flex flex-col gap-6 md:flex-row items-center justify-between py-5">
+          <div className="container mx-auto px-6 flex flex-col gap-6 md:flex-row items-center justify-between py-5">
             <div className="flex items-center justify-center divide-solid divide-x-2 divide-gray-400">
               <div className="font-semibold text-2xl lg:text-3xl pr-4">
                 <a href="#home">
@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <p className="text-white text-[15px] leading-6 flex items-center gap-2">
+            <p className="text-white flex items-center flex-col md:flex-row text-[15px] leading-6  gap-2">
               For suggestions or sponsorship:{" "}
               <span className="flex items-center gap-1">
               <a href="mailto:wdjx@gmail.com" className="text-[#575757] hover:text-white duration-500 ease-in">

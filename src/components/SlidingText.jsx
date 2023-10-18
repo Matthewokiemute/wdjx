@@ -29,7 +29,7 @@ const SlidingText = () => {
             key={index}
             className={`transition-transform text-[#57C126] ${
               index === currentWordIndex ? '-translate-y-0' : '-translate-y-40 hidden'
-            } duration-2000 ease-in inline-block`}
+            } duration-700 ease-in inline-block`}
           >
             {word}
           </span>

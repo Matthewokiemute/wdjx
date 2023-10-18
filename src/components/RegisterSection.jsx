@@ -16,7 +16,7 @@ const RegisterSection = () => {
   }
   return (
     <div className="container mx-auto flex md:flex-row items-center justify-center flex-col-reverse gap-10 md:gap-40 py-28">
-      <div>
+      <div className="px-4 md:px-0">
         <form onSubmit={(e) => SubmitForm(e)} className="form w-full relative">
           <div className="flex flex-col gap-3 mb-3">
             <label className="text-2xl md:text-3xl font-medium">
