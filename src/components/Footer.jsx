@@ -14,7 +14,7 @@ const Footer = () => {
           width={800}
           height={800}
           alt="Chidera and Clement including Nelson"
-          className="w-auto h-[320px] relative -bottom-16"
+          className="w-auto md:h-[500px] relative -bottom-16"
         />
       </div>
       <div className="bg-[#141414] py-10 w-full z-40">
