@@ -70,9 +70,9 @@ const Header = () => {
           )}
         </div>
         {showMobileMenu && (
-          <div class="bg-[#141414] text-white h-[100vh] fixed inset-0">
+          <div className="bg-[#141414] text-white h-[100vh] fixed inset-0">
             <div className="h-full grid place-items-start">
-              <ul class="pt-28 text-2xl pl-10 pb-8 flex flex-col gap-6">
+              <ul className="pt-28 text-2xl pl-10 pb-8 flex flex-col gap-6">
                 <li
                   data-aos-delay="400"
                   data-aos="fade-up"
@@ -113,14 +113,14 @@ const Header = () => {
                     Hala Us
                   </a>
                 </li>
-                <li data-aos-delay="1200" data-aos="fade-top">
-                  <button onClick={showMenuFunc} class="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
-                    <a href="https://wa.me/message/PHODOTZ5RGMWC1">
+                {/* <li data-aos-delay="1200" data-aos="fade-top">
+                  <button onClick={showMenuFunc} className="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+                    <a href="#register">
                       Secure ur sit
                     </a>
                     <TbArrowUpRight className="w-6 h-6" />
                   </button>
-                </li>
+                </li> */}
               </ul>
 
               <div className="text-xl pl-10 py-5 flex gap-10">

@@ -9,13 +9,13 @@ const SpeakersTab = () => {
     {
       id: 1,
       tabTitle: "Day 1",
-      tabDesc: "1st of December(Online)",
+      tabDesc: "1st Dec (Online)",
       content: <DayOneSpeakers />,
     },
     {
       id: 2,
       tabTitle: "Day 2",
-      tabDesc: "2nd of December(Physical)",
+      tabDesc: "2nd Dec (Physical)",
       content: <DayTwoSpeakers />,
     },
   ];
