@@ -20,8 +20,8 @@ const Header = () => {
   };
 
   return (
-    <header className="container relative px-40 pt-4 top-0 z-50">
-      <nav className=" py-6 text-white flex items-center justify-between">
+    <header className="container relative px-4 md:px-40 pt-4 top-0 z-50">
+      <nav className="container py-6 text-white md:flex md:items-center md:justify-between">
         <div className="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
             <Image src="/wdjx.png" alt="WDJX Logo" height={50} width={50} />
@@ -72,7 +72,7 @@ const Header = () => {
         {showMobileMenu && (
           <div className="bg-[#141414] text-white h-[100vh] fixed inset-0">
             <div className="h-full grid place-items-start">
-              <ul className="pt-28 text-2xl pl-10 pb-8 flex flex-col gap-6">
+              <ul className="pt-28 text-2xl pl-10 pb-6 flex flex-col gap-6">
                 <li
                   data-aos-delay="400"
                   data-aos="fade-up"

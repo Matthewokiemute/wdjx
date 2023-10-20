@@ -11,13 +11,13 @@ const HeroSection = () => {
     <div className="px-4 my-16 lg:my-20 lg:px-40 ">
       <p className="mb-2 lg:mb-4 md:text-[17px] text-[#fff] lg:w-3/4 font-semibold">DEC 1 - 2, 2023. Warri, Nigeria</p>
       <h1
-        className="text-2xl md:text-3xl lg:text-7xl font-bold mb-5 lg:mb-10 text-white -tracking-wide"
+        className="text-5xl md:text-6xl lg:text-7xl font-bold mb-5 lg:mb-10 text-white -tracking-wide"
         // data-aos="fade-up"
         // data-aos-delay="400"
       >
-       Join us for the<br className="hidden lg:inline-block" />
+       Join us for the <br className="hidden lg:inline-block" />
        first ever <span className="text-primary">design</span><br className="hidden lg:inline-block" />
-       <span className="text-green">conference</span> <span className="text-pink">in </span><span className="text-blue">warri</span>.
+       <span className="text-green"> conference</span> <span className="text-pink">in </span><span className="text-blue">warri</span>.
       </h1>
       <p
         className="mb-5 lg:mb-10 md:text-[17px] text-[#fff] lg:w-3/5"

@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Mobile Screen */}
           <div className="flex flex-col md:hidden gap-2 items-center mb-16">
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Register</a>
+            <a href="#register" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Register</a>
             <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">About us</a>
             </div>
             <div className="flex gap-1">
