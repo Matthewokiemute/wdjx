@@ -13,7 +13,7 @@ const Alert = ({ isOpen, onClose }) => {
           </span>
         </div>
         <p className="text-[15px] leading-6 text-[#888]">
-          Thanks for your interest in attending WDJX'23. Click on the link to
+          Thanks for your interest in attending WDJX&apos;23. Click on the link to
           join our community group:{" "}
           <a href="https://chat.whatsapp.com/GWltvERAOHz8fwYRXKFkoo" className="font-bold underline">
             WDJX Community
