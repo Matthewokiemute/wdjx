@@ -20,8 +20,8 @@ const Header = () => {
   };
 
   return (
-    <header className="relative px-2 top-0 z-50">
-      <nav className="container p-4 py-6 text-white flex items-center justify-between">
+    <header className="container relative px-40 pt-4 top-0 z-50">
+      <nav className=" py-6 text-white flex items-center justify-between">
         <div className="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
             <Image src="/wdjx.png" alt="WDJX Logo" height={50} width={50} />
@@ -44,8 +44,8 @@ const Header = () => {
               <a href="#contact">Hala Us</a>
             </li>
             <li>
-              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200">
-                <a href="https://wa.me/message/PHODOTZ5RGMWC1">Secure ur sit</a>
+              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200 rounded-md">
+                <a href="#register">Secure ur sit</a>
                 <TbArrowUpRight className="w-6 h-6" />
               </button>
             </li>

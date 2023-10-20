@@ -22,41 +22,41 @@ const Footer = () => {
           {/* Mobile Screen */}
           <div className="flex flex-col md:hidden gap-2 items-center mb-16">
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Register</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">About us</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Register</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">About us</a>
             </div>
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Sessions</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Sponsors</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Sessions</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Sponsors</a>
             </div>
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Speakers</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Be a volunteer</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Speakers</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Be a volunteer</a>
             </div>
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Be a sponsor</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Contact us</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Be a sponsor</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Contact us</a>
             </div>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">WDJX merch</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">WDJX merch</a>
           </div>
           {/* Desktop Screen */}
           <div className="hidden flex-col md:flex md:flex-col gap-2 items-center md:space-x-10 mb-16">
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Register</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">About us</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Register</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">About us</a>
             {/* </div> */}
             {/* <div className="flex gap-1"> */}
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Sessions</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Sponsors</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Sessions</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Sponsors</a>
             {/* </div> */}
             {/* <div className="flex gap-1"> */}
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Speakers</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Speakers</a>
             </div>
             <div className="flex gap-1">
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Be a volunteer</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Be a sponsor</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">Contact us</a>
-            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200">WDJX merch</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Be a volunteer</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Be a sponsor</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">Contact us</a>
+            <a href="#" className="bg-transparent text-white font-medium text-lg px-6 py-3 border-[1px] border-gray-200 rounded-md">WDJX merch</a>
             </div>
           </div>
           <div className="container mx-auto px-6 flex flex-col gap-6 md:flex-row items-center justify-between py-5">

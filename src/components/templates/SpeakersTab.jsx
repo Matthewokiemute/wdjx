@@ -30,8 +30,8 @@ const SpeakersTab = () => {
           Timetable
         </span>
         <div className="text-center md:w-2/5">
-          <p className="text-2xl md:text-4xl text-black font-semibold">
-            Packaging waffi best, 9ja best and world-class for one place!
+          <p className="text-2xl md:text-4xl text-black font-semibold mb-2">
+            Our speakers choke!
           </p>
         </div>
         <div className="flex items-center justify-between bg-[#ccc] p-1 w-full md:w-3/5">

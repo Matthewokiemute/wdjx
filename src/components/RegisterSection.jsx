@@ -200,7 +200,7 @@ const RegisterSection = () => {
             <div>
               <button
                 type="submit"
-                className="flex items-center space-x-1 bg-primary text-black px-6 py-3 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0"
+                className="flex items-center space-x-1 bg-primary text-black px-8 py-3 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0 rounded-md"
               >
                 {!loading ? (
                   <>
@@ -217,8 +217,8 @@ const RegisterSection = () => {
             </div>
           </form>
         </div>
-        <div className="flex flex-col items-start px-5 gap-4 w-full md:w-[450px] mb-5 md:mb-0">
-          <p className="text-6xl md:text-[90px] md:leading-[1] leading-[1]">
+        <div className="flex flex-col items-start justify-self-start px-5 gap-4 w-full md:w-[450px] mb-5 md:mb-0">
+          <p className="text-6xl md:text-[86px] leading-[1]">
             Make we keep your space abi?
           </p>
           <p>

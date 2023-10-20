@@ -9,7 +9,7 @@ const Sponsors = () => {
           WDJX Sponsor?
         </span>
         <div className="text-center">
-          <p className="text-2xl md:text-5xl text-black font-semibold">
+          <p className="text-2xl md:text-5xl text-black font-semibold leading-[32px] md:mb-3">
             This event for nor dey possible{" "}
             <span className="md:hidden">without the help</span>
           </p>

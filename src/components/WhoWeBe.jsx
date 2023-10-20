@@ -38,8 +38,8 @@ const WhoWeBe = () => {
           width={600}
           height={600}
           className="object-cover mb-6 hidden lg:inline-block animate-b"
-          data-aos="fade-up"
-          data-aos-delay="400"
+          // data-aos="fade-up"
+          // data-aos-delay="400"
         />
         <div className="lg:pr-40">
           <p
@@ -56,7 +56,7 @@ const WhoWeBe = () => {
             transformation in the city and beyond Warri.
           </p>
           <button
-            class="flex items-center space-x-1 bg-primary text-black px-6 py-3 font-semibold hover:opacity-80 ease-in duration-200"
+            class="flex items-center space-x-1 bg-primary text-black px-6 py-3 font-semibold hover:opacity-80 ease-in duration-200 rounded-md"
             data-aos="fade-up"
             data-aos-delay="400"
           >
