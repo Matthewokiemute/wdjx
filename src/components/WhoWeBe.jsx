@@ -56,7 +56,7 @@ const WhoWeBe = () => {
             transformation in the city and beyond Warri.
           </p>
           <button
-            class="flex items-center space-x-1 bg-primary text-black px-6 py-3 font-semibold hover:opacity-80 ease-in duration-200 rounded-md"
+            className="flex items-center space-x-1 bg-primary text-black px-6 py-3 font-semibold hover:opacity-80 ease-in duration-200 rounded-md"
             data-aos="fade-up"
             data-aos-delay="400"
           >
