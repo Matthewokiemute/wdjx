@@ -37,7 +37,7 @@ const WhoWeBe = () => {
           alt="Lady with WDJX Flag"
           width={600}
           height={600}
-          className="object-cover mb-6 hidden lg:inline-block animate-b"
+          className="object-cover mb-6 hidden lg:inline-block animate"
           // data-aos="fade-up"
           // data-aos-delay="400"
         />
