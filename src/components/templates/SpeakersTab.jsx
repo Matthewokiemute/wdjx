@@ -64,13 +64,13 @@ const SpeakersTab = () => {
             All wetin them wan talk about dey here. Check am!
           </p>
           <div className="flex flex-col md:flex-row gap-3 items-center w-fit">
-            <button class="flex items-center justify-center space-x-1 bg-primary text-black px-6 py-[18px] hover:opacity-80 ease-in duration-200">
+            <button className="flex items-center justify-center space-x-1 bg-primary text-black px-6 py-[18px] hover:opacity-80 ease-in duration-200">
               <a href="https://wa.me/message/PHODOTZ5RGMWC1">
                 View all sessions
               </a>
               <TbArrowUpRight className="w-6 h-6" />
             </button>
-            <button class="flex items-center space-x-1 bg-transparent border-2 border-black text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+            <button className="flex items-center space-x-1 bg-transparent border-2 border-black text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
               <a href="https://wa.me/message/PHODOTZ5RGMWC1">
                 Add to me calendar
               </a>

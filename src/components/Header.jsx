@@ -30,7 +30,7 @@ const Header = () => {
         <div>
           <ul className="hidden lg:flex lg:text-[18px] items-center space-x-6">
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a class="effect" href="#home">
+              <a className="effect" href="#home">
                 Who We Be?
               </a>
             </li>
@@ -44,7 +44,7 @@ const Header = () => {
               <a href="#contact">Hala Us</a>
             </li>
             <li>
-              <button class="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200 rounded-md">
+              <button className="flex items-center space-x-1 bg-primary text-black px-6 py-2 hover:opacity-80 ease-in duration-200 rounded-md">
                 <a href="#register">Secure ur sit</a>
                 <TbArrowUpRight className="w-6 h-6" />
               </button>
@@ -56,14 +56,14 @@ const Header = () => {
           {!showMobileMenu ? (
             <button
               onClick={showMenuFunc}
-              class="lg:hidden cursor-pointer bg-white text-black rounded-md p-1"
+              className="lg:hidden cursor-pointer bg-white text-black rounded-md p-1"
             >
               <IoIosMenu className="w-6 h-6" />
             </button>
           ) : (
             <button
               onClick={showMenuFunc}
-              class="lg:hidden cursor-pointer text-white rounded-md"
+              className="lg:hidden cursor-pointer text-white rounded-md"
             >
               <AiOutlineClose className="w-6 h-6" />
             </button>

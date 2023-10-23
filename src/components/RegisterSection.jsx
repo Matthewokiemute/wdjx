@@ -146,10 +146,10 @@ const RegisterSection = () => {
                   --choose
                 </option>
                 <option value="Day One" name="Day One">
-                  Day One
+                  Day One (Online)
                 </option>
                 <option value="Day Two" name="Day Two">
-                  Day Two
+                  Day Two (Physical)
                 </option>
                 <option value="Both Days" name="Both Days">
                   Both Days
@@ -183,7 +183,7 @@ const RegisterSection = () => {
                   WhatsApp
                 </option>
                 <option value="Twitter" name="Twitter">
-                  Twiiter
+                  Twitter
                 </option>
                 <option value="Instagram" name="Instagram">
                   Instagram
@@ -193,6 +193,9 @@ const RegisterSection = () => {
                 </option>
                 <option value="Banner" name="Banner">
                   Banners
+                </option>
+                <option value="Others" name="Others">
+                  Others
                 </option>
               </select>
               {errors.how && <p className="text-red-500">{errors.how}</p>}
