@@ -1,8 +1,5 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
-import Header from "../Header";
-import Footer from "../Footer";
 
 const PageLayout = ({ children, title, description, image, className }) => {
   const router = useRouter();
@@ -25,7 +22,7 @@ const PageLayout = ({ children, title, description, image, className }) => {
         <meta property="og:image" content={image} key="og:image" />
         <meta
           property="og:url"
-          content={`https://wdjx.com${router?.asPath}`}
+          content={`https://wdjx.africa${router?.asPath}`}
           key="og:url"
         />
         <meta name="twitter:card" content={description} key="twitter:card" />
@@ -38,7 +35,7 @@ const PageLayout = ({ children, title, description, image, className }) => {
 
         <meta
           property="twitter:url"
-          content={`https://justdeal.ng${router?.asPath}`}
+          content="WDJX - Warri Design Junction Conference"
           key="twitter:url"
         />
         <meta
@@ -46,17 +43,17 @@ const PageLayout = ({ children, title, description, image, className }) => {
           content="WDJX - Warri Design Junction Experience"
           key="twitter:image:alt"
         />
-        <meta property="twitter:domain" content="wdjx.com" />
+        <meta property="twitter:domain" content="wdjx.africa" />
 
         <title>{title}</title>
-        <meta name="apple-mobile-web-app-title" content="Justdeal" />
-        <meta name="application-name" content="Justdeal" />
+        <meta name="apple-mobile-web-app-title" content="WDJX - Warri Design Junction Conference" />
+        <meta name="application-name" content="WDJX - Warri Design Junction Conference" />
         <meta name="msapplication-TileColor" content="#ffbbff" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="icon" href="/wdjx.png" />
       </Head>
       <div>
-        <main className="overflow-hidden min-h-screen">
+        <main className="overflow-hidden min-h-screen !scroll-smooth">
           {children}
         </main>
       </div>

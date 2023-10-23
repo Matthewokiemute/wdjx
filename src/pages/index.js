@@ -10,10 +10,10 @@ import Footer from "@/components/Footer";
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function Home() {
-  const itemsDetails = ['/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png', '/justdeal.png'];
+  const itemsDetails = ['WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA', 'WDJX.AFRICA'];
   return (
     <div className={`${Jakarta.className}`}>
-      <PageLayout title="WDJX - Warri Design Junction Experience">
+      <PageLayout title="WDJX - Warri Design Junction Experience" description="The First Ever Warri Design Foucused Conference">
         <MegaHeroSection />
         <Sponsors />
         <SponsorsSlider items={itemsDetails} />

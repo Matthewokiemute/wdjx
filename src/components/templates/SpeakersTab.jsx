@@ -34,14 +34,14 @@ const SpeakersTab = () => {
             Our speakers choke!
           </p>
         </div>
-        <div className="flex items-center justify-between bg-[#ccc] p-1 w-full md:w-3/5">
+        <div className="flex items-center justify-between rounded-md bg-[#ccc] p-1.5 w-full md:w-3/5">
           {tabs.map((tab, idx) => (
             <button
               key={idx}
               id={tab.id}
               disabled={currentTab === `${tab.id}`}
               onClick={handleTabClick}
-              className={`flex flex-col items-center py-4 w-full disabled:bg-primary disabled:text-black cursor-pointer`}
+              className={`flex flex-col items-center py-4 w-full rounded-md disabled:bg-black disabled:text-white cursor-pointer`}
             >
               <span className="text-[15px] md:text-base font-semibold">
                 {tab.tabTitle}
@@ -64,13 +64,13 @@ const SpeakersTab = () => {
             All wetin them wan talk about dey here. Check am!
           </p>
           <div className="flex flex-col md:flex-row gap-3 items-center w-fit">
-            <button className="flex items-center justify-center space-x-1 bg-primary text-black px-6 py-[18px] hover:opacity-80 ease-in duration-200">
+            <button className="flex items-center justify-center rounded-md space-x-1 bg-primary text-black px-6 py-[18px] hover:opacity-80 ease-in duration-200">
               <a href="https://wa.me/message/PHODOTZ5RGMWC1">
                 View all sessions
               </a>
               <TbArrowUpRight className="w-6 h-6" />
             </button>
-            <button className="flex items-center space-x-1 bg-transparent border-2 border-black text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+            <button className="flex items-center rounded-md space-x-1 bg-transparent border-2 border-black text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
               <a href="https://wa.me/message/PHODOTZ5RGMWC1">
                 Add to me calendar
               </a>

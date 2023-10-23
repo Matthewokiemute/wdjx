@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="container relative px-4 lg:px-40 pt-4 top-0 z-50">
+    <header className="container relative px-5 lg:px-40 pt-4 top-0 z-50">
       <nav className="container py-6 text-white md:flex md:items-center md:justify-between">
         <div className="font-semibold text-2xl lg:text-3xl">
           <a href="#home">
@@ -56,7 +56,7 @@ const Header = () => {
           {!showMobileMenu ? (
             <button
               onClick={showMenuFunc}
-              className="lg:hidden cursor-pointer bg-white text-black rounded-md p-1"
+              className="lg:hidden cursor-pointer bg-white text-black rounded-md p-2"
             >
               <IoIosMenu className="w-6 h-6" />
             </button>

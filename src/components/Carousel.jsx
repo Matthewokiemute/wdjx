@@ -83,7 +83,7 @@ const Carousel = ({ items }) => {
         </button>
       </div>
       <div className="flex items-center justify-center mt-4 pb-10">
-        <button className="flex items-center space-x-1 bg-primary text-black px-6 py-3 hover:opacity-80 ease-in duration-200">
+        <button className="flex items-center space-x-1 rounded-md bg-primary text-black px-6 py-3 hover:opacity-80 ease-in duration-200">
           <a target="-blank" href="https://drive.google.com/file/d/1b1eDLqTcyI2YfMSz66a_rp7hygq_Ch3O/view?usp=drivesdk">You wan be Odogu too?</a>
           <TbArrowUpRight className="w-6 h-6" />
         </button>

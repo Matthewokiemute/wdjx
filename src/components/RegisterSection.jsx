@@ -203,7 +203,7 @@ const RegisterSection = () => {
             <div>
               <button
                 type="submit"
-                className="flex items-center space-x-1 bg-primary text-black px-8 py-3 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0 rounded-md"
+                className="flex items-center space-x-1 bg-black text-white px-8 py-4 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0 rounded-md"
               >
                 {!loading ? (
                   <>
@@ -213,7 +213,7 @@ const RegisterSection = () => {
                 ) : (
                   <>
                     <span className="mr-1">Loading...</span>
-                    <SpinLoading size={20} className="border-black border-2" />
+                    <SpinLoading size={20} className="border-white border-2" />
                   </>
                 )}
               </button>
