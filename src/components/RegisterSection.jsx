@@ -58,7 +58,7 @@ const RegisterSection = () => {
 
     // console.log(form)
     setLoading(true);
-    const response = await fetch("api/submit", {
+    const response = await fetch("/api/submit", {
       method: "POST",
       headers: {
         Accept: "application/json",
