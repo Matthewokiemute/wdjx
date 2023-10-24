@@ -17,7 +17,7 @@ export default function Home() {
         <MegaHeroSection />
         <Sponsors />
         <SponsorsSlider items={itemsDetails} />
-        <SpeakersTab />
+        // <SpeakersTab />
         <RegisterSection />
         <Footer />
       </PageLayout>
