@@ -124,15 +124,21 @@ const Header = () => {
               </ul>
 
               <div className="text-xl pl-10 py-5 flex gap-10">
+                <a href="https://twitter.com/wdjx23" target="_blank">
                 <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="600">
                   <CiTwitter className="w-6 h-6 text-white" />
                 </div>
+                </a>
+                <a href="https://facebook.com/wdjx23" target="_blank">
                 <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="700">
                   <SlSocialFacebook className="w-6 h-6 text-white" />
                 </div>
+                </a>
+                <a href="https://www.instagram.com/wdjx23/" target="_blank">
                 <div className="p-2 border border-gray-100 rounded-md bg-transparent" data-aos="fade-in" data-aos-delay="800">
                   <PiInstagramLogoLight className="w-6 h-6 text-white" />
                 </div>
+                </a>
               </div>
             </div>
           </div>
