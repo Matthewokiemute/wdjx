@@ -148,12 +148,12 @@ const RegisterSection = () => {
                 <option value="Day One" name="Day One">
                   Day One (Online)
                 </option>
-                <option value="Day Two" name="Day Two">
+                {/* <option value="Day Two" name="Day Two">
                   Day Two (Physical)
                 </option>
                 <option value="Both Days" name="Both Days">
                   Both Days
-                </option>
+                </option> */}
               </select>
               {errors.day && <p className="text-red-500">{errors.day}</p>}
             </div>
