@@ -38,7 +38,7 @@ const Header = () => {
               <a href="#sponsors">Sponsors</a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
-              <a href="#timetable">Timetable</a>
+              <a href="https://vanilla-jasmine-b15.notion.site/82bb28c56fc34639b019a3a422f9e7a0">Timetable</a>
             </li>
             <li className="hover:text-primary duration-700 ease-in-out">
               <a href="#contact">Hala Us</a>
@@ -99,7 +99,7 @@ const Header = () => {
                   className="hover:text-primary duration-700 ease-in-out"
                   onClick={showMenuFunc}
                 >
-                  <a id="hLink" href="#timetable">
+                  <a id="hLink" href="https://vanilla-jasmine-b15.notion.site/82bb28c56fc34639b019a3a422f9e7a0">
                     Timetable
                   </a>
                 </li>
