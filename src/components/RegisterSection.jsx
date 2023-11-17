@@ -203,7 +203,7 @@ const RegisterSection = () => {
             <div>
               <button
                 type="submit"
-                className="flex items-center space-x-1 bg-black text-white px-8 py-4 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0 rounded-md"
+                className="flex items-center space-x-1 bg-black text-white px-8 py-4 font-semibold hover:opacity-80 ease-in duration-200 absolute right-0 rounded-md border-white"
               >
                 {!loading ? (
                   <>

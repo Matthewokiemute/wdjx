@@ -3,7 +3,7 @@ import PageLayout from "@/components/templates/PageLayout";
 import MegaHeroSection from "@/components/templates/MegaHeroSection";
 import Sponsors from "@/components/Sponsors";
 import SponsorsSlider from "@/components/Carousel";
-import SpeakersTab from "@/components/templates/SpeakersTab";
+// import SpeakersTab from "@/components/templates/SpeakersTab";
 import RegisterSection from "@/components/RegisterSection";
 import Footer from "@/components/Footer";
 
@@ -17,7 +17,6 @@ export default function Home() {
         <MegaHeroSection />
         <Sponsors />
         <SponsorsSlider items={itemsDetails} />
-        <SpeakersTab />
         <RegisterSection />
         <Footer />
       </PageLayout>
