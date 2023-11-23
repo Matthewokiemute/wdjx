@@ -18,17 +18,17 @@ const HeroSection = () => {
         // data-aos="fade-up"
         // data-aos-delay="400"
       >
-        Join us for the <br className="hidden lg:inline-block" />
-        first ever <span className="text-primary">design</span>
+        Unpending the Norm: <br className="hidden lg:inline-block" />
+        Warri&apos;s <span className="text-primary">First-Ever</span>
         <br className="hidden lg:inline-block" />
-        <span className="text-green"> conference</span>{" "}
-        <span className="text-pink">in </span>
-        <span className="text-blue">warri</span>.
+        <span className="text-green"> Design</span>{" "}
+        {/* <span className="text-pink">in </span> */}
+        <span className="text-blue">Conference</span>.
       </h1>
       <p className="mb-5 lg:mb-10 md:text-[17px] text-[#fff] md:w-3/4 lg:w-3/5">
-        Combining modern designs with the Africans vibes to lite our Waffi
-        people and city. As Warri nor dey carry last, if you sabi am and say you
-        nor wan make you and your career take last secure your spot now.
+        Shake up your design creativity and skills, learn from industry experts,
+        network with other designers, and gain valuable insights into the latest
+        trends and techniques in design.
       </p>
       <button
         className="flex items-center space-x-1 bg-primary text-black text-[18px] px-6 py-4 hover:opacity-80 ease-in duration-200 rounded-md"

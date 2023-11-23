@@ -113,14 +113,14 @@ const Header = () => {
                     Hala Us
                   </a>
                 </li>
-                {/* <li data-aos-delay="1200" data-aos="fade-top">
-                  <button onClick={showMenuFunc} className="flex items-center space-x-1 bg-primary text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
+                <li data-aos-delay="1200" data-aos="fade-top">
+                  <button onClick={showMenuFunc} className="flex items-center space-x-1 bg-primary rounded-md text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
                     <a href="#register">
-                      Secure ur sit
+                      Register
                     </a>
                     <TbArrowUpRight className="w-6 h-6" />
                   </button>
-                </li> */}
+                </li>
               </ul>
 
               <div className="text-xl pl-10 py-5 flex gap-10">

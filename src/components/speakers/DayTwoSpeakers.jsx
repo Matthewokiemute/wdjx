@@ -4,52 +4,28 @@ import React from 'react'
 const DayTwoSpeakers = () => {
     const SpeakersData = [
         {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
+            imgSRC: "/images/Kenneth.png",
+            name: "Kenneth ijama",
+            company: "SalesUnit",
+            profession: "Founder"
         },
         {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
+            imgSRC: "/images/Zitu.png",
+            name: "Zitu .T. Blessing",
+            company: "Zitu Clothing",
+            profession: "CEO/Creative Director"
         },
         {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
+            imgSRC: "/images/Prov.png",
+            name: "Confidence Iyomih",
+            company: "TheBraveCreative",
+            profession: "Architechural Designer"
         },
         {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
-        },
-        {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
-        },
-        {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
-        },
-        {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
-        },
-        {
-            imgSRC: "/images/clement.png",
-            name: "Chidera Etuenu",
-            company: "Brand Elite Studio",
-            profession: "Brand Strategist"
+            imgSRC: "/images/chidera.png",
+            name: "Chidera Nwanye...",
+            company: "The Brand Elite Studio",
+            profession: "Design Lead"
         },
     ]
   return (
@@ -60,7 +36,7 @@ const DayTwoSpeakers = () => {
             <Image src={data.imgSRC} width={250} height={250} alt={data.name} className="object-cover hover:-rotate-6 hover:scale-125 duration-500 ease-in-out"/>
             </div>
             <div className='py-2 px-1'>
-                <p className='font-bold'>{data.name}</p>
+                <p className='font-bold text-ellipsis overflow-hidden ...'>{data.name}</p>
                 <p className="text-sm font-light">{data.profession} &#8226; {data.company}</p>
             </div>
          </div>
