@@ -65,13 +65,13 @@ const SpeakersTab = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-3 items-center w-fit">
             <button className="flex items-center justify-center rounded-md space-x-1 bg-primary text-black px-6 py-[18px] hover:opacity-80 ease-in duration-200">
-              <a href="https://wa.me/message/PHODOTZ5RGMWC1">
+              <a href="https://www.notion.so/Timetable-WDJX-2023-82bb28c56fc34639b019a3a422f9e7a0?pvs=4">
                 View all sessions
               </a>
               <TbArrowUpRight className="w-6 h-6" />
             </button>
             <button className="flex items-center rounded-md space-x-1 bg-transparent border-2 border-black text-black px-6 py-4 hover:opacity-80 ease-in duration-200">
-              <a href="https://wa.me/message/PHODOTZ5RGMWC1">
+              <a href="https://www.notion.so/Timetable-WDJX-2023-82bb28c56fc34639b019a3a422f9e7a0?pvs=4">
                 Add to me calendar
               </a>
               <TbArrowUpRight className="w-6 h-6" />

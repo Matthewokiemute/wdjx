@@ -10,6 +10,7 @@ import WatinToExpect from "@/components/WatinToExpect";
 
 const Jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
+
 export default function Home() {
   const itemsDetails = ['/images/sky.png', '/images/ronsend.png', '/images/webflow.png'];
   return (

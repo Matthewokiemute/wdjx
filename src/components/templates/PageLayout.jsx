@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
+
 const PageLayout = ({ children, title, description, image, className }) => {
   const router = useRouter();
 
@@ -22,7 +23,7 @@ const PageLayout = ({ children, title, description, image, className }) => {
         <meta property="og:image" content={image} key="og:image" />
         <meta
           property="og:url"
-          content={`https://wdjx.africa${router?.asPath}`}
+          content="https://wdjx.africa"
           key="og:url"
         />
         <meta name="twitter:card" content={description} key="twitter:card" />
