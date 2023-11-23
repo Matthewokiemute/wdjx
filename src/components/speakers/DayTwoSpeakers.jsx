@@ -22,7 +22,7 @@ const DayTwoSpeakers = () => {
             profession: "Architechural Designer"
         },
         {
-            imgSRC: "/images/chidera.png",
+            imgSRC: "/images/Chidera.png",
             name: "Chidera Nwanye...",
             company: "The Brand Elite Studio",
             profession: "Design Lead"
