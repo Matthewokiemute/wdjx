@@ -8,7 +8,7 @@ const WatinToExpect = () => {
         id="expectation"
         className="container mx-auto flex md:flex-row items-center md:justify-around md:px-18 flex-col gap-10 md:space-x-[20px] pt-28"
       >
-        <div className="px-4 md:px-0 w-[380px] md:w-[450px]">
+        <div className="px-6 md:px-0 w-[380px] md:w-[450px]">
           <p className="font-semibold text-4xl md:text-5xl">
             We plan dis wan come. The world of design gigantic, plenty things
             dey for you. <span className="text-[#FF2768]">Dey play!</span>

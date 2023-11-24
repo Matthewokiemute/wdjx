@@ -22,8 +22,8 @@ const DayTwoSpeakers = () => {
             profession: "Architechural Designer"
         },
         {
-            imgSRC: "/images/Chidera.png",
-            name: "Chidera Nwanye...",
+            imgSRC: "/images/chidera.png",
+            name: "Chidera Nwany...",
             company: "The Brand Elite Studio",
             profession: "Design Lead"
         },
@@ -37,7 +37,7 @@ const DayTwoSpeakers = () => {
             </div>
             <div className='py-2 px-1'>
                 <p className='font-bold text-ellipsis overflow-hidden ...'>{data.name}</p>
-                <p className="text-sm font-light">{data.profession} &#8226; {data.company}</p>
+                <p className="text-sm font-light">{data.company} &#8226; {data.profession}</p>
             </div>
          </div>
         )}
